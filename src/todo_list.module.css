@@ -1,0 +1,83 @@
+.todo{
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+
+input{
+    font-size: medium;
+}
+.add{
+    font-size: medium;
+    margin-left: 2px;
+    background-color: hsl(120, 82%, 31%);
+    color: hsl(0, 0%, 95%);
+}
+.delete{
+    margin: 2px;
+    background-color: rgb(255, 9, 9);
+    color: aliceblue;
+}
+.up{
+    margin: 2px;
+    background-color: hsl(222, 87%, 53%);
+}
+.down{
+    margin: 2px;    
+    background-color: hsl(222, 87%, 53%);
+
+}
+.text{
+    margin: 5px;
+}
+button{
+    border: 1px solid hsla(0, 0%, 0%, 0.368);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add:hover{
+    background-color: rgb(29, 247, 29);
+}
+.delete:hover{
+    background-color: rgb(189, 2, 2);
+}
+.up:hover{
+    background-color: rgb(30, 227, 227);
+}
+.down:hover{
+    background-color: rgb(30, 227, 227);
+}
+input[type="text"]{
+    font-size: 17px;
+    border-radius: 3px;
+    color: rgb(100, 95, 95);
+    border: 1px solid;
+}
+ol{
+    padding: 0;
+}
+li{
+    border: 1px solid rgb(203, 212, 218);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsl(180, 45%, 98%);
+    font-weight: bold;
+}
+.text{
+    flex: 1;
+    padding-right: 5px;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
